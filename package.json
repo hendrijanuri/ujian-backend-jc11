@@ -1,0 +1,29 @@
+{
+  "name": "ujian-backend-jc11",
+  "version": "1.0.0",
+  "description": "say npsike",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendrijanuri/ujian-backend-jc11.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "hendrijanuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendrijanuri/ujian-backend-jc11/issues"
+  },
+  "homepage": "https://github.com/hendrijanuri/ujian-backend-jc11#readme"
+}
