@@ -1,7 +1,7 @@
 {
   "name": "ujian-backend-jc11",
   "version": "1.0.0",
-  "description": "say npsike",
+  "description": "say sike",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",

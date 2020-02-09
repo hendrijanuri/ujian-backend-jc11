@@ -1,12 +1,26 @@
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser')
 const cors = require('cors')
-const BodyParser = require('body-parser')
 
-const PORT = 2020 || process.env.PORT
+const PORT = process.env.PORT || 4000
+const front = require('./connections/front')
+const db = require("./connections/index")
+const {userRouter} = require('./routes')
 
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: false}))
 app.use(cors())
-app.use(BodyParser.urlencoded({extended: false}))
-app.use(BodyParser.json())
-app.use(express.static('public'))
 
+// #######################################################
+
+db.connect(err => {
+    if (err) throw err
+    console.log('MySQL connected...')
+})
+
+app.get('/', (req,res)=> res.send(front))
+
+app.use('/users', userRouter)
+
+app.listen(PORT, console.log(`Server running on port ${PORT}`))
