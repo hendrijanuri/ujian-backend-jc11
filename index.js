@@ -3,7 +3,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 2020
 const front = require('./connections/front')
 const db = require("./connections/index")
 const {userRouter} = require('./routes')
