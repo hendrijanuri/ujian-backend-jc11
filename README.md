@@ -16,5 +16,5 @@ Before running the app on local server, it's required to run this script first.
 ### `nodemon .`
 
 Runs the app in the local server.<br />
-Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
+Open [http://localhost:2020](http://localhost:2020) to view it in the browser.
 
