@@ -1,4 +1,5 @@
-This project was made as an assessment of the backend module exam of JC11 Web & mobile Development 
+This project was made as an assessment of the backend module exam of JC11 Web & mobile Development. <br />
+MySQL Database available in sql directory.
 
 ## Repo: ujian-backend-jc11
 ### `Nama: Muhammad Hendri Januri`
