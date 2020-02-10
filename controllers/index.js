@@ -1,5 +1,10 @@
-const userControllers = require('./userControllers')
+const movieControllers = require('./movieControllers')
+const categoryControllers = require('./categoryControllers')
+const movcatControllers = require('./movcatControllers')
 
 module.exports = {
-    userControllers
+    movieControllers,
+    categoryControllers,
+    movcatControllers
+
 }
